@@ -30,7 +30,7 @@ To run the simulation:
 ## **Example**
 
 Here's an example of what you might see in the program's output:
-
+```
 Subject Alice attempting to access Top Secret Document...
 Access denied. Subject cannot read Top Secret Document
 Subject cannot write to Top Secret Document
@@ -48,7 +48,7 @@ Access granted. Subject can read Public Document
 Subject can write to Public Document
 Subject cannot read down
 Subject can write down
-
+```
 
 In this example:
 - Alice is denied access to the Top Secret Document because her clearance level (`CONFIDENTIAL`) is lower than the document's level (`TOP_SECRET`).
